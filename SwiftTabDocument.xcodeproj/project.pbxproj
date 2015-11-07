@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		92203202193F0BF000AC6E61 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203201193F0BF000AC6E61 /* Document.swift */; };
 		92203207193F0BF000AC6E61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92203206193F0BF000AC6E61 /* Images.xcassets */; };
-		9220334A193F0D2400AC6E61 /* MMTabBarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92203349193F0CDB00AC6E61 /* MMTabBarView.framework */; };
 		9220334E193F0D5E00AC6E61 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9220334B193F0D5E00AC6E61 /* MainMenu.xib */; };
 		9220334F193F0D5E00AC6E61 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9220334C193F0D5E00AC6E61 /* Window.xib */; };
 		92203350193F0D5E00AC6E61 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9220334D193F0D5E00AC6E61 /* View.xib */; };
@@ -17,19 +16,8 @@
 		92203354193F28F200AC6E61 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203353193F28F200AC6E61 /* WindowController.swift */; };
 		92203362194471CE00AC6E61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92203361194471CE00AC6E61 /* ViewController.swift */; };
 		922033651945250200AC6E61 /* HMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 922033641945250200AC6E61 /* HMUtils.m */; };
-		9220336919470B4A00AC6E61 /* MMTabBarView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92203349193F0CDB00AC6E61 /* MMTabBarView.framework */; };
 		D4FFE2C71BEDA602003C2ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFE2C61BEDA602003C2ABE /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		92203348193F0CDB00AC6E61 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 922032C9193F0CDB00AC6E61 /* MMTabBarView.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06DB23A61609F5830071BDA0;
-			remoteInfo = MMTabBarView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		9220336819470B3900AC6E61 /* CopyFiles */ = {
@@ -38,7 +26,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9220336919470B4A00AC6E61 /* MMTabBarView.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +36,6 @@
 		922031FE193F0BF000AC6E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92203201193F0BF000AC6E61 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		92203206193F0BF000AC6E61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		922032C9193F0CDB00AC6E61 /* MMTabBarView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MMTabBarView.xcodeproj; sourceTree = "<group>"; };
 		9220334B193F0D5E00AC6E61 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		9220334C193F0D5E00AC6E61 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
 		9220334D193F0D5E00AC6E61 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
@@ -67,7 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9220334A193F0D2400AC6E61 /* MMTabBarView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +64,6 @@
 			children = (
 				922031FC193F0BF000AC6E61 /* SwiftTabDocument */,
 				922031FB193F0BF000AC6E61 /* Products */,
-				922032C9193F0CDB00AC6E61 /* MMTabBarView.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,14 +99,6 @@
 				922031FE193F0BF000AC6E61 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		922032CA193F0CDB00AC6E61 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				92203349193F0CDB00AC6E61 /* MMTabBarView.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		92203366194526E500AC6E61 /* Bridge */ = {
@@ -164,7 +140,7 @@
 			attributes = {
 				LastSwiftMigration = 0710;
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Scott Horn";
 				TargetAttributes = {
 					922031F9193F0BF000AC6E61 = {
@@ -184,28 +160,12 @@
 			mainGroup = 922031F1193F0BF000AC6E61;
 			productRefGroup = 922031FB193F0BF000AC6E61 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 922032CA193F0CDB00AC6E61 /* Products */;
-					ProjectRef = 922032C9193F0CDB00AC6E61 /* MMTabBarView.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				922031F9193F0BF000AC6E61 /* SwiftTabDocument */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		92203349193F0CDB00AC6E61 /* MMTabBarView.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MMTabBarView.framework;
-			remoteRef = 92203348193F0CDB00AC6E61 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		922031F8193F0BF000AC6E61 /* Resources */ = {
@@ -258,6 +218,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -326,6 +287,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwiftTabDocument/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hornmicro.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTabDocument/SwiftTabDocument-Bridging-Header.h";
@@ -343,6 +305,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwiftTabDocument/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hornmicro.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTabDocument/SwiftTabDocument-Bridging-Header.h";
