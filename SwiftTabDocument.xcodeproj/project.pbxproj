@@ -18,7 +18,6 @@
 		922033651945250200AC6E61 /* HMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 922033641945250200AC6E61 /* HMUtils.m */; };
 		D4FFE2C71BEDA602003C2ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFE2C61BEDA602003C2ABE /* AppDelegate.swift */; };
 		D4FFE2CB1BEDB32A003C2ABE /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = D4FFE2CA1BEDB32A003C2ABE /* Cartfile */; };
-		D4FFE2CD1BEDB33E003C2ABE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D4FFE2CC1BEDB33E003C2ABE /* README.md */; };
 		D4FFE2CF1BEDB6A6003C2ABE /* MMTabBarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FFE2CE1BEDB6A6003C2ABE /* MMTabBarView.framework */; };
 		D4FFE2D01BEDB6A6003C2ABE /* MMTabBarView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4FFE2CE1BEDB6A6003C2ABE /* MMTabBarView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -202,7 +201,6 @@
 				D4FFE2C71BEDA602003C2ABE /* AppDelegate.swift in Sources */,
 				922033651945250200AC6E61 /* HMUtils.m in Sources */,
 				92203362194471CE00AC6E61 /* ViewController.swift in Sources */,
-				D4FFE2CD1BEDB33E003C2ABE /* README.md in Sources */,
 				92203202193F0BF000AC6E61 /* Document.swift in Sources */,
 				92203354193F28F200AC6E61 /* WindowController.swift in Sources */,
 				92203352193F0D9D00AC6E61 /* DocumentController.swift in Sources */,
