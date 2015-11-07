@@ -19,6 +19,8 @@
 		D4FFE2C71BEDA602003C2ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFE2C61BEDA602003C2ABE /* AppDelegate.swift */; };
 		D4FFE2CB1BEDB32A003C2ABE /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = D4FFE2CA1BEDB32A003C2ABE /* Cartfile */; };
 		D4FFE2CD1BEDB33E003C2ABE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D4FFE2CC1BEDB33E003C2ABE /* README.md */; };
+		D4FFE2CF1BEDB6A6003C2ABE /* MMTabBarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FFE2CE1BEDB6A6003C2ABE /* MMTabBarView.framework */; };
+		D4FFE2D01BEDB6A6003C2ABE /* MMTabBarView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4FFE2CE1BEDB6A6003C2ABE /* MMTabBarView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				D4FFE2D01BEDB6A6003C2ABE /* MMTabBarView.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +53,7 @@
 		D4FFE2C61BEDA602003C2ABE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4FFE2CA1BEDB32A003C2ABE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		D4FFE2CC1BEDB33E003C2ABE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D4FFE2CE1BEDB6A6003C2ABE /* MMTabBarView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMTabBarView.framework; path = Carthage/Build/Mac/MMTabBarView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FFE2CF1BEDB6A6003C2ABE /* MMTabBarView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,7 @@
 		922031F1193F0BF000AC6E61 = {
 			isa = PBXGroup;
 			children = (
+				D4FFE2CE1BEDB6A6003C2ABE /* MMTabBarView.framework */,
 				D4FFE2CC1BEDB33E003C2ABE /* README.md */,
 				D4FFE2CA1BEDB32A003C2ABE /* Cartfile */,
 				922031FC193F0BF000AC6E61 /* SwiftTabDocument */,
@@ -293,6 +299,10 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = SwiftTabDocument/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hornmicro.${PRODUCT_NAME:rfc1034identifier}";
@@ -311,6 +321,10 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = SwiftTabDocument/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hornmicro.${PRODUCT_NAME:rfc1034identifier}";
