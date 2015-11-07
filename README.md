@@ -3,6 +3,12 @@
 
 Simple swift document based app that supports multi-documents within a window controller. Utilises [MMTabBarView](https://github.com/MiMo42/MMTabBarView) for safari-like tabs. 
 
+
+## setup
+
+carthage update --platform Mac
+
+
 ##Download
 
 [SwiftTabDocument.dmg (1.4Mb)](https://github.com/sjhorn/SwiftTabDocument/raw/master/SwiftTabDocument.dmg)<br><br>
@@ -11,12 +17,14 @@ Note: the swift libs add a bit compared to objc version but not quite like a hea
 
 ![SwiftTabDocument](SwiftTabDocument.png "TabDocument")
 
+
 ## Copying
 MMTabbarView components and lines originally were created by Positive Spin Media. The original is BSD licensed.<br> 
 See: http://www.positivespinmedia.com/dev/PSMTabBarControl.html License<br>
 The re-write is also BSD licensed.<br>
 Since 2005 there have been lots of commits by various contributors.<br>
 Thanks to the guys recently improved PSMTabBarControl and inspired me to finally do the re-write!
+
 
 ## License
 Copyright © 2014, Hornmico Pty Ltd. All rights reserved.<br>
